@@ -10,7 +10,15 @@ int helper(const char *str, va_list my_list);
 int stdo_char(va_list my_list);
 int stdo_string(va_list my_list);
 int percent_helper(const char *, va_list, int *);
-int _strlen(const char *);
+int string_length(const char *);
 int stdo_print(char *);
-char *itoa(long int, int);
+typedef struct _format
+{
+	char type;
+	int (*f)(va_list);
+} format;
+int _putchar(char c);
+int tmp_store(char c);
+
+
 #endif

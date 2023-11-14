@@ -57,7 +57,7 @@ int percent_helper(const char *str, va_list my_list, int *i)
 		return (1);
 	}
 
-	number_formats = char_countof(formats) / char_countof(formats[0]);
+	number_formats = sizeof(formats) / sizeof(formats[0]);
 	for (char_count = j = 0; j < number_formats; j++)
 	{
 		if (str[*i] == formats[j].type)

@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 	if (format == NULL)
 		return (-1);
 
-	char_count = _strlen(format);
+	char_count = string_length(format);
 	if (char_count <= 0)
 		return (0);
 
