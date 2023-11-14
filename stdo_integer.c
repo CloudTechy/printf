@@ -12,7 +12,7 @@ int stdo_integer(va_list list)
 
 	p_buffer = itoa(va_arg(list, int), 10);
 
-	size = print((p_buffer != NULL) ? p_buffer : "NULL");
+	size = stdo_print((p_buffer != NULL) ? p_buffer : "NULL");
 
 	return (size);
 }
