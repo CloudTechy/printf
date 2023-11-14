@@ -44,7 +44,8 @@ int percent_helper(const char *str, va_list my_list, int *i)
 	int char_count, j, number_formats;
 	format formats[] = {
 		{'s', stdo_string}, {'c', stdo_char},
-		{'d', stdo_integer}, {'i', stdo_integer}
+		{'d', stdo_integer}, {'i', stdo_integer},
+		{'b', stdo_binary}
 	};
 
 	*i = *i + 1;

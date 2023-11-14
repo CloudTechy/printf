@@ -21,4 +21,5 @@ int _putchar(char c);
 int tmp_store(char c);
 char *itoa(long int num, int base);
 int stdo_integer(va_list list);
+int stdo_binary(va_list my_list);
 #endif
