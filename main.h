@@ -19,6 +19,7 @@ typedef struct _format
 } format;
 int _putchar(char c);
 int tmp_store(char c);
-
+char *itoa(long int num, int base);
+{
 
 #endif
