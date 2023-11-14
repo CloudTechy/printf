@@ -22,4 +22,8 @@ int tmp_store(char c);
 char *itoa(long int num, int base);
 int stdo_integer(va_list list);
 int stdo_binary(va_list my_list);
+int stdo_unsigned(va_list my_list);                          
+int stdo_octal(va_list my_list);
+int stdo_hexadecimal_upp(va_list my_list);
+int stdo_hexadecimal_low(va_list my_list);
 #endif
