@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-
+#define MAIN_H
 
 #include <stdarg.h>
 #include <unistd.h>
@@ -28,5 +28,4 @@ int stdo_octal(va_list my_list);
 int stdo_hexadecimal_upp(va_list my_list);
 int stdo_hexadecimal_low(va_list my_list);
 int stdo_pointer(va_list my_list);
-int tmp_store(char);
 #endif
