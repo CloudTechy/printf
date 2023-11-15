@@ -29,5 +29,6 @@ int stdo_hexadecimal_upp(va_list my_list);
 int stdo_hexadecimal_low(va_list my_list);
 int stdo_pointer(va_list my_list);
 int tmp_store(char);
-int  stdo_rev_string(va_list my_list);
+int stdo_rev_string(va_list my_list);
+int stdo_rot(va_list list);
 #endif

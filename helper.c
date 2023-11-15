@@ -48,7 +48,7 @@ int percent_helper(const char *str, va_list my_list, int *i)
 		{'b', stdo_binary}, {'u', stdo_unsigned},
 		{'o', stdo_octal}, {'x', stdo_hexadecimal_low},
 		{'X', stdo_hexadecimal_upp}, {'p', stdo_pointer},
-		{'r', stdo_rev_string}
+		{'r', stdo_rev_string}, {'R', stdo_rot}
 	};
 
 	*i = *i + 1;
